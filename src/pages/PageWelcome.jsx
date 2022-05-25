@@ -8,7 +8,6 @@ export const PageWelcome = () => {
 			<h2>Welcome</h2>
 			<p>Welcome to this site.</p>
 			<p>Subject : {message}</p>
-			<p>{message === 'online' && 'Available for chat'}</p>
 			<button
 				onClick={() =>
 					setMessage(message === 'technology' ? 'history' : 'technology')
